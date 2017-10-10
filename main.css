@@ -1,0 +1,42 @@
+body {
+    font-family: 'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',Times,serif;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.subtitle {
+    font-family: 'Linux Libertine','Times New Roman',serif;
+}
+.input:focus,
+.input:active,
+.input:visited {
+    border: 2px solid #36c;
+    box-shadow: none;
+}
+.button {
+    font-family: 'Times New Roman';
+}
+.button:hover {
+    background-color: #447ff5;
+    border-color: #447ff5;
+}
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+div.card {
+    margin: 5px;
+    box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.2);
+}
+.card:hover {
+    box-shadow: 0 1px 2px rgba(0,0,0, 0.2);
+}
+a {
+    color: #36c;
+}
+#search-btn {
+    margin-right: .75rem;
+}

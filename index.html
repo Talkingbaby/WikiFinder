@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wiki Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    WikiFinder
+                </h1>
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                      <div class="field">
+                        <p class="control">
+                            <input class="input is-large" type="text" placeholder="What to search for?">
+                        </p>
+                      </div>
+                      <button id="search-btn" class="button is-large is-info">Search</button>
+                      <a href="https://en.wikipedia.org/wiki/Special:Random" class="button is-large is-info" target="_blank">Random</a>
+                    </div>
+                  </div>
+                <h2 class="subtitle">
+                    Use the search bar above to find what you need.
+                </h2>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+              <div class="content has-text-centered">
+                <p>
+                  <strong>WikiFinder</strong> by <a href="https://cai-ul.firebaseapp.com/" target="_blank">Kyle Kenney</a>. Project inspired by
+                  <strong>FreeCodeCamp</strong>.
+                </p>
+              </div>
+            </div>
+          </footer>
+    </section>
+    <div class="container results-box hide">
+        <div class="columns is-multiline is-centered results"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
